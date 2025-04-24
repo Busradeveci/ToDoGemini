@@ -1,42 +1,35 @@
-ToDoGemini, web uygulamaları geliştirme dersi kapsamında oluşturulmuş bir deneyim projesidir. 
+# ToDoGemini
+ToDoGemini is an experimental project created as part of a web application development course.
 
-**Özellikler:**
+## Features
+- Allows users to create and manage their to-do lists.
+- Includes functions for adding, editing, and deleting tasks.
+- Tracks the completion status of tasks.
 
-- Kullanıcıların yapılacaklar listesi oluşturmasına ve yönetmesine olanak tanır.
-- Görev ekleme, düzenleme ve silme işlevleri içerir.
-- Görevlerin tamamlanma durumunu takip edebilir.
+## Technologies Used
+- Python
+- HTML
+- JavaScript
 
-**Kullanılan Teknolojiler:**
-
-- Python
-- HTML
-- JavaScript
-
-**Kurulum ve Kullanım:**
-
-1. Depoyu klonlayın:
-
+## Installation and Usage
+1. Clone the repository:
    ```bash
    git clone https://github.com/Busradeveci/ToDoGemini.git
    ```
 
-2. Gerekli bağımlılıkları yükleyin:
-
+2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Veritabanını oluşturun:
-
+3. Create the database:
    ```bash
    flask db upgrade
    ```
 
-4. Uygulamayı başlatın:
-
+4. Start the application:
    ```bash
    flask run
    ```
 
-5. Tarayıcınızda `http://localhost:5000` adresine giderek uygulamayı kullanmaya başlayabilirsiniz.
-
+You can begin using the application by visiting [http://localhost:5000](http://localhost:5000) in your browser.
