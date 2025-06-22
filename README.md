@@ -14,7 +14,7 @@ ToDoGemini is an experimental project created as part of a web application devel
 ## Installation and Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Busradeveci/ToDoGemini.git
+   git clone https://github.com/busradeveci/ToDoGemini.git
    ```
 
 2. Install the required dependencies:
